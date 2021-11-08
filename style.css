@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    /* border: 0.001px solid black; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    background-image: linear-gradient(to right,red,green,yellow);
+}
+.list{
+    text-align: center;
+    list-style-type: disc;
+    background-color: rgb(36, 121, 160);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    /* border-image: initial; */
+    border-radius: 10px;
+}
+.container1{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5px;
+    padding-left: 9%;
+    padding-right: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: green;
+    border-image: initial;
+    border-radius: 20px;
+}
+.card {
+    width: 65%;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 12px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: green;
+    border-image: initial;
+    border-radius: 10px;
+}
+.none{
+    visibility: hidden;
+}
+.container2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: radial-gradient(yellow 55%, red);
+    padding-bottom: 25px;
+    /* padding-top: 25px; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline red;
+}
+.container3{
+    border: 2px solid green;
+    background-image: radial-gradient(blue 55%,green);
+    margin-bottom: 2%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;   
+}
+.card3{
+    border: 1px solid red;
+    border-radius: 13px;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: red;
+    height: 110px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container4{
+    border: 1px solid rgb(160, 71, 36);
+    background-color: rgb(160, 71, 36);
+    font-size: 40px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    color: white;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.box1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgreen;
+
+}
+.box2{
+    color: white;
+    font-size: 40px;
+    background-color: rgb(70, 139, 230);
+
+}
+.box3{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(41, 69, 194);
+    
+}
+.box4{
+    color: white;
+    background-color: rgb(33, 36, 46);
+    padding: 6px;
+    grid-row: span 2 / auto;   
+}
+.box5{
+    background-color: rgb(224, 162, 46);
+    color: white;
+    font-size: 30px;
+    grid-column: 1 / 4;   
+}
